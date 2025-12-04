@@ -135,20 +135,25 @@
  C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h \
  C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
- .pio/libdeps/rymcu-esp32-devkitc/SD-master/src/SD.h \
- .pio/libdeps/rymcu-esp32-devkitc/SD-master/src/utility/SdFat.h \
- .pio/libdeps/rymcu-esp32-devkitc/SD-master/src/utility/Sd2Card.h \
- .pio/libdeps/rymcu-esp32-devkitc/SD-master/src/utility/Sd2PinMap.h \
- .pio/libdeps/rymcu-esp32-devkitc/SD-master/src/utility/SdInfo.h \
- .pio/libdeps/rymcu-esp32-devkitc/SD-master/src/utility/FatStructs.h \
- C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
- .pio/libdeps/rymcu-esp32-devkitc/SD-master/src/utility/SdFatUtil.h \
- .pio/libdeps/rymcu-esp32-devkitc/Audio-master/src/Audio.h \
- .pio/libdeps/rymcu-esp32-devkitc/Audio-master/src/DAC.h \
- include/feedback.hpp include/sensors.hpp \
- .pio/libdeps/rymcu-esp32-devkitc/TFT_eSPI/TFT_eSPI.h \
+ C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/SD.h \
+ C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
  C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
  C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd_defines.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/BackgroundAudio.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/BackgroundAudioAAC.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/WrappedAudioOutputBase.h \
+ C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/BackgroundAudioGain.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/BackgroundAudioBuffers.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/libhelix-aac/aacdec.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/BackgroundAudioMP3.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/libmad/config.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/libmad/mad.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/BackgroundAudioWAV.h \
+ .pio/libdeps/rymcu-esp32-devkitc/BackgroundAudio-master/src/BackgroundAudioMixer.h \
+ include/feedback.hpp include/sensors.hpp \
+ .pio/libdeps/rymcu-esp32-devkitc/TFT_eSPI/TFT_eSPI.h \
  .pio/libdeps/rymcu-esp32-devkitc/TFT_eSPI/User_Setup_Select.h \
  .pio/libdeps/rymcu-esp32-devkitc/TFT_eSPI/User_Setup.h \
  .pio/libdeps/rymcu-esp32-devkitc/TFT_eSPI/TFT_Drivers/ILI9341_Defines.h \
@@ -171,7 +176,6 @@
  C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/rtc_cntl_reg.h \
  C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/rtc_io_reg.h \
  C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/platform_port/include/hal/misc.h \
- C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
  C:/Users/1705s/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src/SPIFFS.h \
  .pio/libdeps/rymcu-esp32-devkitc/TFT_eSPI/Fonts/glcdfont.c \
  .pio/libdeps/rymcu-esp32-devkitc/TFT_eSPI/Fonts/Font16.h \

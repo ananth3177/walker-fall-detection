@@ -1,7 +1,8 @@
 #include <Arduino.h> 
 #include <Wire.h>
 #include <SD.h>
-#include <Audio.h> // Use ESP32-AudioI2S or similar
+#include <SPI.h>
+#include <BackgroundAudio.h> // Use ESP32-AudioI2S or similar
 #include "feedback.hpp"
 #include "sensors.hpp"
 
@@ -28,7 +29,7 @@ const int HAPTIC_R_GPIO = 5;
 #define I2C_DAC_ADDR 0x4C   // Example I2C address for DAC
 
 // Function declaration
-void handleLEDs(int stateL, int stateR);
+static void handleLEDs(int stateL, int stateR);
 void headlights(int ldrState);
 void hapticHell(int stateL, int stateR);
 void audioLogic(int stateL, int stateR);
@@ -82,7 +83,7 @@ void feedback_update()
 
   int ldrMin = min(leftLdr, rightLdr);
 
-  handleLEDS(leftDist, rightDist);
+  handleLEDs(leftDist, rightDist);
   hapticHell(leftDist, rightDist);
   headlights(ldrMin);
   audioLogic(leftDist, rightDist);
